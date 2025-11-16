@@ -1,0 +1,33 @@
+node_modules/
+.env
+.env.local
+.env.*.local
+dist/
+build/
+coverage/
+*.log
+.DS_Store
+.cache/
+.parcel-cache/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+hardhat.config.js.bak
+
+# Blockchain
+blockchain/artifacts/
+blockchain/cache/
+blockchain/typechain-types/
+blockchain/coverage/
+blockchain/coverage.json
+
+# Client
+client/dist/
+client/.vite/
+
+# Server
+server/uploads/
+server/logs/
+
